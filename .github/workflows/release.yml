@@ -70,6 +70,5 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: ${{ needs.tag.outputs.tag }}
-          prerelease: true
           title: Release ${{ needs.tag.outputs.tag }}
           files: artifacts/**/*
