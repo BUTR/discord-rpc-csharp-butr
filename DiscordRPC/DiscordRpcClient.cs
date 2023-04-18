@@ -3,7 +3,6 @@ using DiscordRPC.Exceptions;
 using DiscordRPC.IO;
 using DiscordRPC.Logging;
 using DiscordRPC.Message;
-using DiscordRPC.Registry;
 using DiscordRPC.RPC;
 using DiscordRPC.RPC.Commands;
 using System;
@@ -859,19 +858,6 @@ namespace DiscordRPC
         }
 
         #region Subscriptions
-
-        /// <summary>
-        /// Registers the application executable to a custom URI Scheme.
-        /// <para>This is required for the Join and Spectate features. Discord will run this custom URI Scheme to launch your application when a user presses either of the buttons.</para>
-        /// </summary>
-        /// <param name="steamAppID">Optional Steam ID. If supplied, Discord will launch the game through steam instead of directly calling it.</param>
-        /// <param name="executable">The path to the executable. If null, the path to the current executable will be used instead.</param>
-        /// <returns></returns>
-        public bool RegisterUriScheme(string steamAppID = null, string executable = null)
-        {
-            var urischeme = new UriSchemeRegister(_logger, ApplicationID, steamAppID, executable);
-            return HasRegisteredUriScheme = urischeme.RegisterUriScheme();
-        }
 
         /// <summary>
         /// Subscribes to an event sent from discord. Used for Join / Spectate feature.
