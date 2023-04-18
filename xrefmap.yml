@@ -682,19 +682,6 @@ references:
   isSpec: "True"
   fullName: DiscordRPC.DiscordRpcClient.ProcessID
   nameWithType: DiscordRpcClient.ProcessID
-- uid: DiscordRPC.DiscordRpcClient.RegisterUriScheme(System.String,System.String)
-  name: RegisterUriScheme(String, String)
-  href: api/DiscordRPC.DiscordRpcClient.html#DiscordRPC_DiscordRpcClient_RegisterUriScheme_System_String_System_String_
-  commentId: M:DiscordRPC.DiscordRpcClient.RegisterUriScheme(System.String,System.String)
-  fullName: DiscordRPC.DiscordRpcClient.RegisterUriScheme(System.String, System.String)
-  nameWithType: DiscordRpcClient.RegisterUriScheme(String, String)
-- uid: DiscordRPC.DiscordRpcClient.RegisterUriScheme*
-  name: RegisterUriScheme
-  href: api/DiscordRPC.DiscordRpcClient.html#DiscordRPC_DiscordRpcClient_RegisterUriScheme_
-  commentId: Overload:DiscordRPC.DiscordRpcClient.RegisterUriScheme
-  isSpec: "True"
-  fullName: DiscordRPC.DiscordRpcClient.RegisterUriScheme
-  nameWithType: DiscordRpcClient.RegisterUriScheme
 - uid: DiscordRPC.DiscordRpcClient.Respond(DiscordRPC.Message.JoinRequestMessage,System.Boolean)
   name: Respond(JoinRequestMessage, Boolean)
   href: api/DiscordRPC.DiscordRpcClient.html#DiscordRPC_DiscordRpcClient_Respond_DiscordRPC_Message_JoinRequestMessage_System_Boolean_
